@@ -32,13 +32,7 @@
     <configuration>  
         <showSuccess>false</showSuccess>  
     </configuration> 
-	< reportSets >
-< reportSet >
-< reports >
-< report >report-only< /report >
-< /reports >
-< /reportSet >
-< /reportSets > 
+	
 </plugin>  
 </plugins> 
 </build>
