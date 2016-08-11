@@ -44,12 +44,18 @@
                         <format>html</format>  
                         <format>xml</format>  
                     </formats>  
-                    <instrumentation>  
-                        <excludes>  
-                            <exclude>com/**/*Test.class</exclude>  
-                        </excludes>  
-                    </instrumentation>  
-                </configuration>  
+                    
+                </configuration> 
+
+
+	 <executions>
+                                <execution>
+                                    <phase>package</phase>
+                                    <goals>
+                                        <goal>cobertura</goal>
+                                    </goals>
+                                </execution>
+                            </executions> 
             </plugin> 
 </plugins> 
 </build>
