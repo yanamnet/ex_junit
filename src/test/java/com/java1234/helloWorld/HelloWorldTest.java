@@ -10,6 +10,6 @@ public class HelloWorldTest {
 	public void testSayHello(){
 		HelloWorld helloWorld=new HelloWorld();
 		String result=helloWorld.sayHello();
-		assertEquals("Hello World,2016",result);
+		assertEquals("Hello World,2016-8-25",result);
 	}
 }
